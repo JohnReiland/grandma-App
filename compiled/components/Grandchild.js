@@ -1,0 +1,18 @@
+var Grandchild = ({ advice, joke, giveAge, openBirthdayCard }) => React.createElement(
+  "div",
+  null,
+  "Grandchild",
+  React.createElement(
+    "div",
+    null,
+    "\"I just turned...\"",
+    React.createElement("input", {
+      className: "form-control",
+      type: "text",
+      onChange: event => YOUR_EXPRESSION_HERE
+    })
+  )
+);
+
+export default Grandchild;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL2NvbXBvbmVudHMvR3JhbmRjaGlsZC5qc3giXSwibmFtZXMiOlsiR3JhbmRjaGlsZCIsImFkdmljZSIsImpva2UiLCJnaXZlQWdlIiwib3BlbkJpcnRoZGF5Q2FyZCIsImV2ZW50IiwiWU9VUl9FWFBSRVNTSU9OX0hFUkUiXSwibWFwcGluZ3MiOiJBQUFBLElBQUlBLGFBQWEsQ0FBQyxFQUFDQyxNQUFELEVBQVNDLElBQVQsRUFBZUMsT0FBZixFQUF3QkMsZ0JBQXhCLEVBQUQsS0FFZjtBQUFBO0FBQUE7QUFBQTtBQUdFO0FBQUE7QUFBQTtBQUFBO0FBRUU7QUFDRSxpQkFBVSxjQURaO0FBRUUsWUFBSyxNQUZQO0FBR0UsZ0JBQVdDLEtBQUQsSUFBV0M7QUFIdkI7QUFGRjtBQUhGLENBRkY7O0FBc0JBLGVBQWVOLFVBQWYiLCJmaWxlIjoiR3JhbmRjaGlsZC5qcyIsInNvdXJjZXNDb250ZW50IjpbInZhciBHcmFuZGNoaWxkID0gKHthZHZpY2UsIGpva2UsIGdpdmVBZ2UsIG9wZW5CaXJ0aGRheUNhcmR9KSA9PiAoXG5cbiAgPGRpdj5HcmFuZGNoaWxkXG4gICAgey8qIC0tIE15IHBhcmVudCB0b2xkIG1lIGEgam9rZTogXCJ7am9rZX1cIiAqL31cblxuICAgIDxkaXY+XG4gICAgICBcIkkganVzdCB0dXJuZWQuLi5cIlxuICAgICAgPGlucHV0XG4gICAgICAgIGNsYXNzTmFtZT1cImZvcm0tY29udHJvbFwiXG4gICAgICAgIHR5cGU9XCJ0ZXh0XCJcbiAgICAgICAgb25DaGFuZ2U9eyhldmVudCkgPT4gWU9VUl9FWFBSRVNTSU9OX0hFUkV9XG4gICAgICAvPlxuICAgIDwvZGl2PlxuXG4gICAgey8qIDxkaXY+XG4gICAgICA8YnV0dG9uIG9uQ2xpY2s9e29wZW5CaXJ0aGRheUNhcmR9ID5PcGVuIEJpcnRoZGF5IENhcmQ8L2J1dHRvbj5cbiAgICA8L2Rpdj4gKi99XG5cbiAgPC9kaXY+XG5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IEdyYW5kY2hpbGQ7Il19

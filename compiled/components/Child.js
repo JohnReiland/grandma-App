@@ -1,0 +1,17 @@
+import Grandchild from './Grandchild.js';
+import LyingBrat from './LyingBrat.js';
+
+var Child = ({ advice, joke, giveAge, openBirthdayCard }) => React.createElement(
+  'div',
+  null,
+  'Child',
+  React.createElement(Grandchild, {
+    advice: advice,
+    joke: joke
+    // giveAge={giveAge}
+    // openBirthdayCard={openBirthdayCard}
+  })
+);
+
+export default Child;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL2NvbXBvbmVudHMvQ2hpbGQuanN4Il0sIm5hbWVzIjpbIkdyYW5kY2hpbGQiLCJMeWluZ0JyYXQiLCJDaGlsZCIsImFkdmljZSIsImpva2UiLCJnaXZlQWdlIiwib3BlbkJpcnRoZGF5Q2FyZCJdLCJtYXBwaW5ncyI6IkFBQUEsT0FBT0EsVUFBUCxNQUF1QixpQkFBdkI7QUFDQSxPQUFPQyxTQUFQLE1BQXNCLGdCQUF0Qjs7QUFFQSxJQUFJQyxRQUFRLENBQUMsRUFBQ0MsTUFBRCxFQUFTQyxJQUFULEVBQWVDLE9BQWYsRUFBd0JDLGdCQUF4QixFQUFELEtBQ1Y7QUFBQTtBQUFBO0FBQUE7QUFFRSxzQkFBQyxVQUFEO0FBQ0UsWUFBUUgsTUFEVjtBQUVFLFVBQU1DO0FBQ047QUFDQTtBQUpGO0FBRkYsQ0FERjs7QUFZQSxlQUFlRixLQUFmIiwiZmlsZSI6IkNoaWxkLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEdyYW5kY2hpbGQgZnJvbSAnLi9HcmFuZGNoaWxkLmpzJztcbmltcG9ydCBMeWluZ0JyYXQgZnJvbSAnLi9MeWluZ0JyYXQuanMnXG5cbnZhciBDaGlsZCA9ICh7YWR2aWNlLCBqb2tlLCBnaXZlQWdlLCBvcGVuQmlydGhkYXlDYXJkfSkgPT4gKFxuICA8ZGl2PkNoaWxkXG4gICAgey8qIC0tIEFzIG15IHBhcmVudCBhbHdheXMgc2F5cywgXCJ7YWR2aWNlfVwiICovfVxuICAgIDxHcmFuZGNoaWxkXG4gICAgICBhZHZpY2U9e2FkdmljZX1cbiAgICAgIGpva2U9e2pva2V9XG4gICAgICAvLyBnaXZlQWdlPXtnaXZlQWdlfVxuICAgICAgLy8gb3BlbkJpcnRoZGF5Q2FyZD17b3BlbkJpcnRoZGF5Q2FyZH1cbiAgICAvPlxuICA8L2Rpdj5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IENoaWxkOyJdfQ==
