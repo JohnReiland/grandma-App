@@ -2,7 +2,7 @@
 
 This repo was created by John Reiland as part of a presentation for Hack Reactor Remote Cohort 42, and was used to illustrate, in the context of props being passed from parent node to child node (to grandchild node, etc) the situations where .bind is needed, the situations where it is not needed, and why React is designed in such a way as to make functions-passed-as-props necessary in order for an offspring node to send data to, or alter the data of, an ancestor node.
 
-This repo was used only as an aide in the presentation, not as the presentation entire, and so looking through this repo will probably not be as illuminating as (I hope) the presentation was. It still should be useful as a kind of testing sandbox, however, in which you can experiment in this simple environment, and from the results you find, work out how to implement more complicated behavior in the program you're actually working on.
+This repo was used only as an aid in the presentation, not as the presentation entire, and so looking through this repo will probably not be as illuminating as (I hope) the presentation was. It still should be useful as a kind of testing sandbox, however, in which you can experiment in this simple environment, and from the results you find, work out how to implement more complicated behavior in the program you're actually working on.
 
 At some point in the future I may come back to this and add text to better illustrate the purspose of various parts, but if you were smart enough to find and open a README, I think you're already clever enough to work it out on your own, and so the less I fill it with words, the more useful it will probably be to you.
 
