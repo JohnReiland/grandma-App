@@ -2,7 +2,7 @@
   "name": "grandma-App",
   "version": "1.0.0",
   "description": "Sandbox for exploring parent-node-child-node communication in React",
-  "author": "John Reiland <reiland.shanghai@gmail.com>, Hack Reactor <curriculum.team@hackreactor.com>",
+  "author": "John Reiland <reiland.shanghai@gmail.com>",
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
